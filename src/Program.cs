@@ -133,8 +133,9 @@ namespace GeoJsonConcat
 				foreach (var file in files)
 				{
 					c++;
-					//if (c > 10)
-					//	break;
+
+					// if (c > 10)
+                    //	break;
 
 					Console.Write($"Reading file {file}...");
 
@@ -213,8 +214,9 @@ namespace GeoJsonConcat
 							{
 								var featureCollection = (JObject) JToken.ReadFrom(reader);
 
-								File.AppendAllText(tempFilePath,
-									$",{featureCollection["features"].ToString(Formatting.None)}");
+								var featuresJsonString = featureCollection["features"].ToString(Formatting.None);
+
+								File.AppendAllText(tempFilePath, $",{featuresJsonString.Substring(1, featuresJsonString.Length - 2)}");
 
 								Console.WriteLine($"Appended {kvp.Key} features to {tempFilePath}.");
 							}
