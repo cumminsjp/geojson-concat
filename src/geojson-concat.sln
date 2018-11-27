@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geojson-concat", "geojson-concat.csproj", "{76AC9E52-3B16-49C9-AEDC-7DCC7DF276AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76AC9E52-3B16-49C9-AEDC-7DCC7DF276AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AC9E52-3B16-49C9-AEDC-7DCC7DF276AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AC9E52-3B16-49C9-AEDC-7DCC7DF276AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AC9E52-3B16-49C9-AEDC-7DCC7DF276AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5C887B8-CEBC-4CC6-A712-E08B33D1566A}
+	EndGlobalSection
+EndGlobal
